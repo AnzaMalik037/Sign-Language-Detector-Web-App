@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Detector</title>
+    <style>
+        body {
+            background-color: #ffef96;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1, button {
+            color: #50394c;
+        }
+        h4 {
+            color: #000;
+            text-align: center;
+        }
+        button {
+            border: none;
+            background-color: #50394c;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            border-radius: 50px;
+        }
+        button.exit {
+            background-color: #ff4949;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><u>Sign Language Detector</u></h1>
+    <h4>Signs: Bad, Rock, Yes, Paper, Hello, Scissor, Good, Okey, ILoveYou, No, Help, angry, happy, delicious</h4>
+    <!-- Update the Detect button to pass a parameter -->
+    <button onclick="window.location.href='detect/1'">Detect</button>
+    <button class="exit" onclick="exitFunction()">Exit</button>
+
+    <script>
+        function exitFunction() {
+            window.open('about:blank', '_self').close(); // Note: This may not work in some browsers due to security restrictions.
+        }
+    </script>
+</body>
+</html>
