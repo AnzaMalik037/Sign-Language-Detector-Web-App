@@ -21,3 +21,5 @@ The updated model can recognize the following 14 hand signs: Bad, Rock, Yes, Pap
 
 🙏 Credits
 📹 Tutorial by: Murtaza's Workshop - Robotics and AI
+https://www.youtube.com/watch?v=MJCSjXepaAM&t=244s
+https://github.com/computervisioneng/sign-language-detector-python
